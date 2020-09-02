@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2020-01-30 09:22:00,554: init_node, name[/ros_test], pid[4661]
+[xmlrpc][INFO] 2020-01-30 09:22:00,565: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-30 09:22:00,566: Started XML-RPC server [http://huai:40409/]
+[rospy.init][INFO] 2020-01-30 09:22:00,566: ROS Slave URI: [http://huai:40409/]
+[rospy.impl.masterslave][INFO] 2020-01-30 09:22:00,566: _ready: http://huai:40409/
+[rospy.registration][INFO] 2020-01-30 09:22:00,571: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-30 09:22:00,571: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-30 09:22:00,667: registered with master
+[rospy.rosout][INFO] 2020-01-30 09:22:00,667: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-30 09:22:00,668: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-30 09:22:00,669: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-30 09:22:00,776: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-30 09:22:03,283: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.core][INFO] 2020-01-30 09:22:12,541: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-30 09:22:12,543: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-30 09:22:12,543: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-30 09:22:12,543: signal-2
+[rospy.core][INFO] 2020-01-30 09:22:13,159: signal_shutdown [atexit]

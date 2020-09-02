@@ -1,0 +1,989 @@
+[rospy.client][INFO] 2020-01-06 11:49:57,318: init_node, name[/ros_test], pid[23182]
+[xmlrpc][INFO] 2020-01-06 11:49:57,328: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 11:49:57,328: Started XML-RPC server [http://huai:46807/]
+[rospy.init][INFO] 2020-01-06 11:49:57,328: ROS Slave URI: [http://huai:46807/]
+[rospy.impl.masterslave][INFO] 2020-01-06 11:49:57,329: _ready: http://huai:46807/
+[rospy.registration][INFO] 2020-01-06 11:49:57,333: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 11:49:57,333: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 11:49:57,429: registered with master
+[rospy.rosout][INFO] 2020-01-06 11:49:57,429: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 11:49:57,431: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 11:49:57,431: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 11:49:57,680: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 11:49:59,985: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 11:50:26,420: topic[/cam0/image_raw] adding connection to [http://huai:38549/], count 0
+[rospy.internal][WARNING] 2020-01-06 11:52:00,944: Unknown error initiating TCP/IP socket to huai:50707 (http://huai:38549/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 11:52:00,944: topic[/cam0/image_raw] removing connection to http://huai:38549/
+[rospy.core][INFO] 2020-01-06 11:52:14,459: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 11:52:14,461: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 11:52:14,461: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 11:52:14,461: signal-2
+[rospy.core][INFO] 2020-01-06 11:52:14,578: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 11:53:59,383: init_node, name[/ros_test], pid[30854]
+[xmlrpc][INFO] 2020-01-06 11:53:59,400: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 11:53:59,406: Started XML-RPC server [http://huai:43935/]
+[rospy.init][INFO] 2020-01-06 11:53:59,407: ROS Slave URI: [http://huai:43935/]
+[rospy.impl.masterslave][INFO] 2020-01-06 11:53:59,407: _ready: http://huai:43935/
+[xmlrpc][INFO] 2020-01-06 11:53:59,408: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 11:53:59,408: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 11:53:59,507: registered with master
+[rospy.rosout][INFO] 2020-01-06 11:53:59,507: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 11:53:59,509: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 11:53:59,510: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 11:53:59,734: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 11:54:02,238: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 11:54:06,189: topic[/cam0/image_raw] adding connection to [http://huai:44473/], count 0
+[rospy.internal][WARNING] 2020-01-06 11:55:40,674: Unknown error initiating TCP/IP socket to huai:58303 (http://huai:44473/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 11:55:40,675: topic[/cam0/image_raw] removing connection to http://huai:44473/
+[rospy.core][INFO] 2020-01-06 11:56:04,139: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 11:56:04,141: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 11:56:04,141: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 11:56:04,142: signal-2
+[rospy.core][INFO] 2020-01-06 11:56:04,250: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 12:01:35,035: init_node, name[/ros_test], pid[9124]
+[xmlrpc][INFO] 2020-01-06 12:01:35,042: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 12:01:35,043: Started XML-RPC server [http://huai:39117/]
+[rospy.init][INFO] 2020-01-06 12:01:35,043: ROS Slave URI: [http://huai:39117/]
+[rospy.impl.masterslave][INFO] 2020-01-06 12:01:35,044: _ready: http://huai:39117/
+[rospy.registration][INFO] 2020-01-06 12:01:35,056: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 12:01:35,056: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 12:01:35,144: registered with master
+[rospy.rosout][INFO] 2020-01-06 12:01:35,144: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 12:01:35,146: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 12:01:35,147: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 12:01:35,382: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 12:01:37,888: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 12:01:43,242: topic[/cam0/image_raw] adding connection to [http://huai:35221/], count 0
+[rospy.internal][WARNING] 2020-01-06 12:03:17,741: Unknown error initiating TCP/IP socket to huai:46157 (http://huai:35221/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 12:03:17,742: topic[/cam0/image_raw] removing connection to http://huai:35221/
+[rospy.core][INFO] 2020-01-06 12:11:29,872: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 12:11:29,874: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 12:11:29,874: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 12:11:29,874: signal-2
+[rospy.core][INFO] 2020-01-06 12:11:29,990: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 15:12:22,042: init_node, name[/ros_test], pid[11790]
+[xmlrpc][INFO] 2020-01-06 15:12:22,049: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 15:12:22,050: Started XML-RPC server [http://huai:39019/]
+[rospy.impl.masterslave][INFO] 2020-01-06 15:12:22,050: _ready: http://huai:39019/
+[rospy.init][INFO] 2020-01-06 15:12:22,051: ROS Slave URI: [http://huai:39019/]
+[xmlrpc][INFO] 2020-01-06 15:12:22,058: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 15:12:22,058: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 15:12:22,151: registered with master
+[rospy.rosout][INFO] 2020-01-06 15:12:22,152: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 15:12:22,153: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 15:12:22,154: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 15:12:22,412: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 15:12:24,917: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 15:12:29,839: topic[/cam0/image_raw] adding connection to [http://huai:44479/], count 0
+[rospy.internal][WARNING] 2020-01-06 15:14:04,359: Unknown error initiating TCP/IP socket to huai:48135 (http://huai:44479/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 15:14:04,359: topic[/cam0/image_raw] removing connection to http://huai:44479/
+[rospy.core][INFO] 2020-01-06 15:14:07,844: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 15:14:07,846: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 15:14:07,846: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 15:14:07,846: signal-2
+[rospy.core][INFO] 2020-01-06 15:14:07,963: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 16:17:01,080: init_node, name[/ros_test], pid[30231]
+[xmlrpc][INFO] 2020-01-06 16:17:01,083: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 16:17:01,084: Started XML-RPC server [http://huai:40097/]
+[rospy.init][INFO] 2020-01-06 16:17:01,084: ROS Slave URI: [http://huai:40097/]
+[rospy.impl.masterslave][INFO] 2020-01-06 16:17:01,084: _ready: http://huai:40097/
+[rospy.registration][INFO] 2020-01-06 16:17:01,085: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 16:17:01,085: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 16:17:01,184: registered with master
+[rospy.rosout][INFO] 2020-01-06 16:17:01,185: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 16:17:01,186: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 16:17:01,187: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 16:17:01,311: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 16:17:04,014: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 16:17:39,073: topic[/cam0/image_raw] adding connection to [http://huai:41157/], count 0
+[rospy.internal][WARNING] 2020-01-06 16:18:36,245: Unknown error initiating TCP/IP socket to huai:46725 (http://huai:41157/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 16:18:36,245: topic[/cam0/image_raw] removing connection to http://huai:41157/
+[rospy.core][INFO] 2020-01-06 16:18:39,647: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 16:18:39,649: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 16:18:39,649: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 16:18:39,650: signal-2
+[rospy.core][INFO] 2020-01-06 16:18:39,754: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 16:18:50,218: init_node, name[/ros_test], pid[2149]
+[xmlrpc][INFO] 2020-01-06 16:18:50,224: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 16:18:50,225: Started XML-RPC server [http://huai:34803/]
+[rospy.init][INFO] 2020-01-06 16:18:50,225: ROS Slave URI: [http://huai:34803/]
+[rospy.impl.masterslave][INFO] 2020-01-06 16:18:50,225: _ready: http://huai:34803/
+[xmlrpc][INFO] 2020-01-06 16:18:50,226: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 16:18:50,226: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 16:18:50,326: registered with master
+[rospy.rosout][INFO] 2020-01-06 16:18:50,326: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 16:18:50,328: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 16:18:50,328: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 16:18:50,576: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 16:18:52,980: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 16:21:09,391: topic[/cam0/image_raw] adding connection to [http://huai:39501/], count 0
+[rospy.internal][WARNING] 2020-01-06 16:22:43,885: Unknown error initiating TCP/IP socket to huai:48283 (http://huai:39501/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 16:22:43,885: topic[/cam0/image_raw] removing connection to http://huai:39501/
+[rospy.core][INFO] 2020-01-06 16:23:43,794: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 16:23:43,796: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 16:23:43,796: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 16:23:43,797: signal-2
+[rospy.core][INFO] 2020-01-06 16:23:43,929: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 16:24:23,520: init_node, name[/ros_test], pid[11311]
+[xmlrpc][INFO] 2020-01-06 16:24:23,526: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 16:24:23,526: Started XML-RPC server [http://huai:43133/]
+[rospy.init][INFO] 2020-01-06 16:24:23,527: ROS Slave URI: [http://huai:43133/]
+[rospy.impl.masterslave][INFO] 2020-01-06 16:24:23,527: _ready: http://huai:43133/
+[rospy.registration][INFO] 2020-01-06 16:24:23,536: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 16:24:23,536: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 16:24:23,627: registered with master
+[rospy.rosout][INFO] 2020-01-06 16:24:23,627: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 16:24:23,629: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 16:24:23,630: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 16:24:23,835: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 16:24:26,138: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 16:24:31,367: topic[/cam0/image_raw] adding connection to [http://huai:46835/], count 0
+[rospy.internal][WARNING] 2020-01-06 16:26:05,881: Unknown error initiating TCP/IP socket to huai:36079 (http://huai:46835/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 16:26:05,881: topic[/cam0/image_raw] removing connection to http://huai:46835/
+[rospy.core][INFO] 2020-01-06 16:26:16,977: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 16:26:16,979: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 16:26:16,979: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 16:26:16,980: signal-2
+[rospy.core][INFO] 2020-01-06 16:26:17,089: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 16:26:37,659: init_node, name[/ros_test], pid[17733]
+[xmlrpc][INFO] 2020-01-06 16:26:37,664: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 16:26:37,665: Started XML-RPC server [http://huai:43991/]
+[rospy.init][INFO] 2020-01-06 16:26:37,665: ROS Slave URI: [http://huai:43991/]
+[rospy.impl.masterslave][INFO] 2020-01-06 16:26:37,665: _ready: http://huai:43991/
+[rospy.registration][INFO] 2020-01-06 16:26:37,679: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 16:26:37,679: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 16:26:37,765: registered with master
+[rospy.rosout][INFO] 2020-01-06 16:26:37,766: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 16:26:37,767: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 16:26:37,768: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 16:26:38,038: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 16:26:40,142: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 16:26:50,861: topic[/cam0/image_raw] adding connection to [http://huai:38459/], count 0
+[rospy.internal][WARNING] 2020-01-06 16:28:41,127: Unknown error initiating TCP/IP socket to huai:42795 (http://huai:38459/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 16:28:41,127: topic[/cam0/image_raw] removing connection to http://huai:38459/
+[rospy.core][INFO] 2020-01-06 16:47:03,743: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 16:47:03,745: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 16:47:03,746: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 16:47:03,746: signal-2
+[rospy.core][INFO] 2020-01-06 16:47:04,361: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 16:47:11,977: init_node, name[/ros_test], pid[5820]
+[xmlrpc][INFO] 2020-01-06 16:47:11,978: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 16:47:11,978: Started XML-RPC server [http://huai:37839/]
+[rospy.init][INFO] 2020-01-06 16:47:11,978: ROS Slave URI: [http://huai:37839/]
+[rospy.impl.masterslave][INFO] 2020-01-06 16:47:11,978: _ready: http://huai:37839/
+[rospy.registration][INFO] 2020-01-06 16:47:11,979: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 16:47:11,979: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 16:47:12,078: registered with master
+[rospy.rosout][INFO] 2020-01-06 16:47:12,079: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 16:47:12,080: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 16:47:12,081: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 16:47:12,307: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 16:47:14,610: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.core][INFO] 2020-01-06 16:47:17,855: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 16:47:17,857: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 16:47:17,857: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 16:47:17,857: signal-2
+[rospy.core][INFO] 2020-01-06 16:47:17,962: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 17:55:09,714: init_node, name[/ros_test], pid[26381]
+[xmlrpc][INFO] 2020-01-06 17:55:09,719: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 17:55:09,720: Started XML-RPC server [http://huai:32951/]
+[rospy.init][INFO] 2020-01-06 17:55:09,720: ROS Slave URI: [http://huai:32951/]
+[rospy.impl.masterslave][INFO] 2020-01-06 17:55:09,720: _ready: http://huai:32951/
+[rospy.registration][INFO] 2020-01-06 17:55:09,726: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 17:55:09,726: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 17:55:09,821: registered with master
+[rospy.rosout][INFO] 2020-01-06 17:55:09,821: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 17:55:09,822: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 17:55:09,823: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 17:55:10,118: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 17:55:12,522: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.core][INFO] 2020-01-06 17:55:59,123: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 17:55:59,125: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 17:55:59,125: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 17:55:59,126: signal-2
+[rospy.core][INFO] 2020-01-06 17:55:59,291: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 17:57:25,167: init_node, name[/ros_test], pid[28027]
+[xmlrpc][INFO] 2020-01-06 17:57:25,176: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 17:57:25,176: Started XML-RPC server [http://huai:37747/]
+[rospy.init][INFO] 2020-01-06 17:57:25,177: ROS Slave URI: [http://huai:37747/]
+[rospy.impl.masterslave][INFO] 2020-01-06 17:57:25,191: _ready: http://huai:37747/
+[rospy.registration][INFO] 2020-01-06 17:57:25,191: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 17:57:25,192: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 17:57:25,291: registered with master
+[rospy.rosout][INFO] 2020-01-06 17:57:25,291: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 17:57:25,293: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 17:57:25,294: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 17:57:25,501: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 17:57:27,897: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.core][INFO] 2020-01-06 17:59:08,424: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 17:59:08,427: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 17:59:08,427: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 17:59:08,427: signal-2
+[rospy.core][INFO] 2020-01-06 17:59:08,560: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 17:59:51,932: init_node, name[/ros_test], pid[29989]
+[xmlrpc][INFO] 2020-01-06 17:59:51,936: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 17:59:51,937: Started XML-RPC server [http://huai:45165/]
+[rospy.init][INFO] 2020-01-06 17:59:51,937: ROS Slave URI: [http://huai:45165/]
+[rospy.impl.masterslave][INFO] 2020-01-06 17:59:51,938: _ready: http://huai:45165/
+[rospy.registration][INFO] 2020-01-06 17:59:51,948: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 17:59:51,949: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 17:59:52,038: registered with master
+[rospy.rosout][INFO] 2020-01-06 17:59:52,039: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 17:59:52,041: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 17:59:52,043: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 17:59:52,314: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 17:59:54,718: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 18:00:06,944: topic[/cam0/image_raw] adding connection to [http://huai:39091/], count 0
+[rospy.internal][WARNING] 2020-01-06 18:01:41,470: Unknown error initiating TCP/IP socket to huai:56289 (http://huai:39091/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 18:01:41,471: topic[/cam0/image_raw] removing connection to http://huai:39091/
+[rospy.core][INFO] 2020-01-06 18:01:50,267: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 18:01:50,269: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 18:01:50,269: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 18:01:50,270: signal-2
+[rospy.core][INFO] 2020-01-06 18:01:50,378: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 21:03:11,099: init_node, name[/ros_test], pid[3978]
+[xmlrpc][INFO] 2020-01-06 21:03:11,100: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 21:03:11,100: Started XML-RPC server [http://huai:45791/]
+[rospy.init][INFO] 2020-01-06 21:03:11,100: ROS Slave URI: [http://huai:45791/]
+[rospy.impl.masterslave][INFO] 2020-01-06 21:03:11,100: _ready: http://huai:45791/
+[rospy.registration][INFO] 2020-01-06 21:03:11,101: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 21:03:11,101: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 21:03:11,200: registered with master
+[rospy.rosout][INFO] 2020-01-06 21:03:11,201: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 21:03:11,202: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 21:03:11,203: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 21:03:11,436: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 21:03:13,639: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 21:03:44,988: topic[/cam0/image_raw] adding connection to [http://huai:44885/], count 0
+[rospy.core][INFO] 2020-01-06 21:04:07,121: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 21:04:07,124: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 21:04:07,125: topic[/Lines2d] removing connection to /tracking_node
+[rospy.internal][INFO] 2020-01-06 21:04:07,125: topic[/cam0/image_raw] removing connection to http://huai:44885/
+[rospy.impl.masterslave][INFO] 2020-01-06 21:04:07,125: signal-2
+[rospy.core][INFO] 2020-01-06 21:04:07,293: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 21:42:02,552: init_node, name[/ros_test], pid[31086]
+[xmlrpc][INFO] 2020-01-06 21:42:02,557: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 21:42:02,557: Started XML-RPC server [http://huai:36085/]
+[rospy.init][INFO] 2020-01-06 21:42:02,557: ROS Slave URI: [http://huai:36085/]
+[rospy.impl.masterslave][INFO] 2020-01-06 21:42:02,558: _ready: http://huai:36085/
+[xmlrpc][INFO] 2020-01-06 21:42:02,563: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 21:42:02,563: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 21:42:02,658: registered with master
+[rospy.rosout][INFO] 2020-01-06 21:42:02,658: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 21:42:02,660: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 21:42:02,660: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 21:42:02,950: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 21:42:05,152: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 21:42:13,694: topic[/cam0/image_raw] adding connection to [http://huai:43555/], count 0
+[rospy.internal][WARNING] 2020-01-06 21:43:48,105: Unknown error initiating TCP/IP socket to huai:33941 (http://huai:43555/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 21:43:48,106: topic[/cam0/image_raw] removing connection to http://huai:43555/
+[rospy.core][INFO] 2020-01-06 21:48:31,958: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 21:48:31,960: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 21:48:31,960: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 21:48:31,960: signal-2
+[rospy.core][INFO] 2020-01-06 21:48:32,093: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 21:48:38,507: init_node, name[/ros_test], pid[8452]
+[xmlrpc][INFO] 2020-01-06 21:48:38,507: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-01-06 21:48:38,507: ROS Slave URI: [http://huai:35497/]
+[xmlrpc][INFO] 2020-01-06 21:48:38,507: Started XML-RPC server [http://huai:35497/]
+[rospy.impl.masterslave][INFO] 2020-01-06 21:48:38,508: _ready: http://huai:35497/
+[xmlrpc][INFO] 2020-01-06 21:48:38,508: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 21:48:38,508: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 21:48:38,608: registered with master
+[rospy.rosout][INFO] 2020-01-06 21:48:38,608: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 21:48:38,610: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 21:48:38,611: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 21:48:38,763: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 21:48:41,267: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 21:48:45,990: topic[/cam0/image_raw] adding connection to [http://huai:39613/], count 0
+[rospy.core][INFO] 2020-01-06 22:02:20,600: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:02:20,602: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:02:20,602: topic[/Lines2d] removing connection to /tracking_node
+[rospy.internal][INFO] 2020-01-06 22:02:20,602: topic[/cam0/image_raw] removing connection to http://huai:39613/
+[rospy.internal][WARNING] 2020-01-06 22:02:20,603: Unknown error initiating TCP/IP socket to huai:52555 (http://huai:39613/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-01-06 22:02:20,603: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 841, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-01-06 22:02:20,603: signal-2
+[rospy.core][INFO] 2020-01-06 22:02:20,720: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:02:33,519: init_node, name[/ros_test], pid[17931]
+[xmlrpc][INFO] 2020-01-06 22:02:33,528: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:02:33,536: Started XML-RPC server [http://huai:38829/]
+[rospy.init][INFO] 2020-01-06 22:02:33,536: ROS Slave URI: [http://huai:38829/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:02:33,536: _ready: http://huai:38829/
+[rospy.registration][INFO] 2020-01-06 22:02:33,537: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:02:33,537: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:02:33,637: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:02:33,637: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:02:33,639: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:02:33,640: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:02:33,797: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:02:36,016: topic[/cam0/image_raw] adding connection to [http://huai:40619/], count 0
+[rospy.internal][INFO] 2020-01-06 22:02:36,134: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][WARNING] 2020-01-06 22:04:10,562: Unknown error initiating TCP/IP socket to huai:33565 (http://huai:40619/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:04:10,562: topic[/cam0/image_raw] removing connection to http://huai:40619/
+[rospy.core][INFO] 2020-01-06 22:08:20,396: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:08:20,398: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:08:20,398: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:08:20,398: signal-2
+[rospy.core][INFO] 2020-01-06 22:08:20,531: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:09:06,189: init_node, name[/ros_test], pid[27557]
+[xmlrpc][INFO] 2020-01-06 22:09:06,204: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:09:06,204: Started XML-RPC server [http://huai:37855/]
+[rospy.init][INFO] 2020-01-06 22:09:06,204: ROS Slave URI: [http://huai:37855/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:09:06,205: _ready: http://huai:37855/
+[rospy.registration][INFO] 2020-01-06 22:09:06,208: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:09:06,208: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:09:06,305: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:09:06,305: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:09:06,307: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:09:06,308: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:09:06,531: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:09:08,737: topic[/cam0/image_raw] adding connection to [http://huai:37471/], count 0
+[rospy.internal][INFO] 2020-01-06 22:09:08,837: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.core][INFO] 2020-01-06 22:09:43,131: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:09:43,134: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:09:43,134: topic[/Lines2d] removing connection to /tracking_node
+[rospy.internal][INFO] 2020-01-06 22:09:43,134: topic[/cam0/image_raw] removing connection to http://huai:37471/
+[rospy.impl.masterslave][INFO] 2020-01-06 22:09:43,134: signal-2
+[rospy.core][INFO] 2020-01-06 22:09:43,304: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:09:53,930: init_node, name[/ros_test], pid[29724]
+[xmlrpc][INFO] 2020-01-06 22:09:53,936: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:09:53,937: Started XML-RPC server [http://huai:34791/]
+[rospy.init][INFO] 2020-01-06 22:09:53,938: ROS Slave URI: [http://huai:34791/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:09:53,938: _ready: http://huai:34791/
+[rospy.registration][INFO] 2020-01-06 22:09:53,943: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:09:53,943: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:09:54,038: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:09:54,038: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:09:54,040: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:09:54,040: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:09:54,323: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:09:56,727: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:09:58,673: topic[/cam0/image_raw] adding connection to [http://huai:33643/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:11:33,067: Unknown error initiating TCP/IP socket to huai:59113 (http://huai:33643/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:11:33,067: topic[/cam0/image_raw] removing connection to http://huai:33643/
+[rospy.core][INFO] 2020-01-06 22:12:22,437: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:12:22,440: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:12:22,440: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:12:22,440: signal-2
+[rospy.core][INFO] 2020-01-06 22:12:22,556: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:13:32,818: init_node, name[/ros_test], pid[5197]
+[xmlrpc][INFO] 2020-01-06 22:13:32,826: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:13:32,826: Started XML-RPC server [http://huai:44605/]
+[rospy.init][INFO] 2020-01-06 22:13:32,826: ROS Slave URI: [http://huai:44605/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:13:32,827: _ready: http://huai:44605/
+[rospy.registration][INFO] 2020-01-06 22:13:32,828: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:13:32,828: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:13:32,927: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:13:32,927: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:13:32,929: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:13:32,930: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:13:33,138: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:13:35,431: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:13:39,258: topic[/cam0/image_raw] adding connection to [http://huai:34223/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:15:13,771: Unknown error initiating TCP/IP socket to huai:40587 (http://huai:34223/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:15:13,771: topic[/cam0/image_raw] removing connection to http://huai:34223/
+[rospy.core][INFO] 2020-01-06 22:15:18,917: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:15:18,919: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:15:18,919: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:15:18,919: signal-2
+[rospy.core][INFO] 2020-01-06 22:15:19,084: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:17:02,383: init_node, name[/ros_test], pid[10559]
+[xmlrpc][INFO] 2020-01-06 22:17:02,400: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:17:02,400: Started XML-RPC server [http://huai:34225/]
+[rospy.init][INFO] 2020-01-06 22:17:02,400: ROS Slave URI: [http://huai:34225/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:17:02,412: _ready: http://huai:34225/
+[rospy.registration][INFO] 2020-01-06 22:17:02,416: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:17:02,416: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:17:02,512: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:17:02,512: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:17:02,514: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:17:02,515: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:17:02,748: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:17:04,851: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:17:19,599: topic[/cam0/image_raw] adding connection to [http://huai:35541/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:19:09,716: Unknown error initiating TCP/IP socket to huai:50001 (http://huai:35541/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:19:09,716: topic[/cam0/image_raw] removing connection to http://huai:35541/
+[rospy.core][INFO] 2020-01-06 22:24:32,585: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:24:32,587: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:24:32,587: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:24:32,587: signal-2
+[rospy.core][INFO] 2020-01-06 22:24:32,720: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:25:05,437: init_node, name[/ros_test], pid[16592]
+[xmlrpc][INFO] 2020-01-06 22:25:05,444: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:25:05,444: Started XML-RPC server [http://huai:43333/]
+[rospy.init][INFO] 2020-01-06 22:25:05,444: ROS Slave URI: [http://huai:43333/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:25:05,445: _ready: http://huai:43333/
+[rospy.registration][INFO] 2020-01-06 22:25:05,456: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:25:05,456: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:25:05,545: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:25:05,545: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:25:05,547: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:25:05,548: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:25:05,783: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:25:08,087: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:27:00,567: topic[/cam0/image_raw] adding connection to [http://huai:46723/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:27:53,998: Unknown error initiating TCP/IP socket to huai:51041 (http://huai:46723/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:27:53,998: topic[/cam0/image_raw] removing connection to http://huai:46723/
+[rospy.core][INFO] 2020-01-06 22:27:55,846: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:27:55,848: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:27:55,848: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:27:55,848: signal-2
+[rospy.core][INFO] 2020-01-06 22:27:55,965: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:28:07,411: init_node, name[/ros_test], pid[19163]
+[xmlrpc][INFO] 2020-01-06 22:28:07,425: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:28:07,433: Started XML-RPC server [http://huai:37583/]
+[rospy.init][INFO] 2020-01-06 22:28:07,433: ROS Slave URI: [http://huai:37583/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:28:07,433: _ready: http://huai:37583/
+[rospy.registration][INFO] 2020-01-06 22:28:07,438: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:28:07,438: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:28:07,534: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:28:07,534: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:28:07,536: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:28:07,537: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:28:07,739: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:28:10,142: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:29:29,089: topic[/cam0/image_raw] adding connection to [http://huai:42379/], count 0
+[rospy.core][INFO] 2020-01-06 22:29:57,475: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:29:57,478: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:29:57,478: topic[/Lines2d] removing connection to /tracking_node
+[rospy.internal][INFO] 2020-01-06 22:29:57,480: topic[/cam0/image_raw] removing connection to http://huai:42379/
+[rospy.impl.masterslave][INFO] 2020-01-06 22:29:57,480: signal-2
+[rospy.core][INFO] 2020-01-06 22:29:57,644: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:30:24,862: init_node, name[/ros_test], pid[20788]
+[xmlrpc][INFO] 2020-01-06 22:30:24,872: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:30:24,872: Started XML-RPC server [http://huai:35183/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:30:24,872: _ready: http://huai:35183/
+[rospy.init][INFO] 2020-01-06 22:30:24,873: ROS Slave URI: [http://huai:35183/]
+[xmlrpc][INFO] 2020-01-06 22:30:24,884: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 22:30:24,885: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 22:30:24,985: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:30:24,985: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:30:24,987: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:30:24,987: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:30:25,233: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:30:27,539: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:30:30,765: topic[/cam0/image_raw] adding connection to [http://huai:43197/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:30:32,652: Unknown error initiating TCP/IP socket to huai:41699 (http://huai:43197/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:30:32,652: topic[/cam0/image_raw] removing connection to http://huai:43197/
+[rospy.core][INFO] 2020-01-06 22:30:38,115: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:30:38,117: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:30:38,117: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:30:38,117: signal-2
+[rospy.core][INFO] 2020-01-06 22:30:38,234: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:30:48,508: init_node, name[/ros_test], pid[21034]
+[xmlrpc][INFO] 2020-01-06 22:30:48,508: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-01-06 22:30:48,508: ROS Slave URI: [http://huai:38419/]
+[xmlrpc][INFO] 2020-01-06 22:30:48,508: Started XML-RPC server [http://huai:38419/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:30:48,509: _ready: http://huai:38419/
+[xmlrpc][INFO] 2020-01-06 22:30:48,518: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 22:30:48,518: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 22:30:48,609: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:30:48,609: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:30:48,610: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:30:48,611: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:30:48,877: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:30:51,183: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:31:46,765: topic[/cam0/image_raw] adding connection to [http://huai:44341/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:33:29,698: Unknown error initiating TCP/IP socket to huai:43361 (http://huai:44341/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:33:29,698: topic[/cam0/image_raw] removing connection to http://huai:44341/
+[rospy.core][INFO] 2020-01-06 22:49:44,097: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:49:44,099: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:49:44,099: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:49:44,099: signal-2
+[rospy.core][INFO] 2020-01-06 22:49:44,215: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:50:54,389: init_node, name[/ros_test], pid[28165]
+[xmlrpc][INFO] 2020-01-06 22:50:54,394: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:50:54,395: Started XML-RPC server [http://huai:39845/]
+[rospy.init][INFO] 2020-01-06 22:50:54,395: ROS Slave URI: [http://huai:39845/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:50:54,395: _ready: http://huai:39845/
+[rospy.registration][INFO] 2020-01-06 22:50:54,400: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:50:54,400: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:50:54,496: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:50:54,496: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:50:54,497: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:50:54,498: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:50:54,734: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:50:56,838: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:52:45,308: topic[/cam0/image_raw] adding connection to [http://huai:45983/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:54:47,449: Unknown error initiating TCP/IP socket to huai:51241 (http://huai:45983/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:54:47,449: topic[/cam0/image_raw] removing connection to http://huai:45983/
+[rospy.core][INFO] 2020-01-06 22:55:58,035: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 22:55:58,037: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 22:55:58,037: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 22:55:58,037: signal-2
+[rospy.core][INFO] 2020-01-06 22:55:58,170: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 22:56:07,027: init_node, name[/ros_test], pid[2583]
+[xmlrpc][INFO] 2020-01-06 22:56:07,036: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 22:56:07,036: Started XML-RPC server [http://huai:41181/]
+[rospy.init][INFO] 2020-01-06 22:56:07,036: ROS Slave URI: [http://huai:41181/]
+[rospy.impl.masterslave][INFO] 2020-01-06 22:56:07,037: _ready: http://huai:41181/
+[rospy.registration][INFO] 2020-01-06 22:56:07,051: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 22:56:07,051: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 22:56:07,137: registered with master
+[rospy.rosout][INFO] 2020-01-06 22:56:07,137: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 22:56:07,140: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 22:56:07,141: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 22:56:07,381: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 22:56:09,484: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 22:56:22,634: topic[/cam0/image_raw] adding connection to [http://huai:32991/], count 0
+[rospy.internal][WARNING] 2020-01-06 22:58:12,862: Unknown error initiating TCP/IP socket to huai:35185 (http://huai:32991/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 22:58:12,862: topic[/cam0/image_raw] removing connection to http://huai:32991/
+[rospy.core][INFO] 2020-01-06 23:00:23,664: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:00:23,666: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:00:23,666: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:00:23,666: signal-2
+[rospy.core][INFO] 2020-01-06 23:00:23,798: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:07:22,444: init_node, name[/ros_test], pid[14147]
+[xmlrpc][INFO] 2020-01-06 23:07:22,453: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:07:22,453: Started XML-RPC server [http://huai:35681/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:07:22,453: _ready: http://huai:35681/
+[rospy.init][INFO] 2020-01-06 23:07:22,453: ROS Slave URI: [http://huai:35681/]
+[rospy.registration][INFO] 2020-01-06 23:07:22,455: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:07:22,455: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:07:22,554: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:07:22,554: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:07:22,556: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:07:22,557: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:07:22,806: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:07:25,218: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:07:47,590: topic[/cam0/image_raw] adding connection to [http://huai:41449/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:09:22,073: Unknown error initiating TCP/IP socket to huai:53283 (http://huai:41449/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:09:22,073: topic[/cam0/image_raw] removing connection to http://huai:41449/
+[rospy.core][INFO] 2020-01-06 23:10:55,068: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:10:55,070: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:10:55,070: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:10:55,071: signal-2
+[rospy.core][INFO] 2020-01-06 23:10:55,686: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:11:03,298: init_node, name[/ros_test], pid[21403]
+[xmlrpc][INFO] 2020-01-06 23:11:03,302: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:11:03,303: Started XML-RPC server [http://huai:34041/]
+[rospy.init][INFO] 2020-01-06 23:11:03,303: ROS Slave URI: [http://huai:34041/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:11:03,303: _ready: http://huai:34041/
+[rospy.registration][INFO] 2020-01-06 23:11:03,308: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:11:03,308: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:11:03,403: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:11:03,403: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:11:03,405: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:11:03,406: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:11:03,619: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:11:05,737: topic[/cam0/image_raw] adding connection to [http://huai:35555/], count 0
+[rospy.internal][INFO] 2020-01-06 23:11:05,922: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][WARNING] 2020-01-06 23:12:40,254: Unknown error initiating TCP/IP socket to huai:42457 (http://huai:35555/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:12:40,255: topic[/cam0/image_raw] removing connection to http://huai:35555/
+[rospy.core][INFO] 2020-01-06 23:14:53,709: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:14:53,711: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:14:53,711: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:14:53,711: signal-2
+[rospy.core][INFO] 2020-01-06 23:14:53,876: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:15:37,253: init_node, name[/ros_test], pid[29785]
+[xmlrpc][INFO] 2020-01-06 23:15:37,254: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:15:37,254: Started XML-RPC server [http://huai:45345/]
+[rospy.init][INFO] 2020-01-06 23:15:37,255: ROS Slave URI: [http://huai:45345/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:15:37,255: _ready: http://huai:45345/
+[xmlrpc][INFO] 2020-01-06 23:15:37,255: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 23:15:37,255: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 23:15:37,355: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:15:37,355: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:15:37,357: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:15:37,358: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:15:37,610: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:15:39,814: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:15:44,139: topic[/cam0/image_raw] adding connection to [http://huai:46651/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:17:18,659: Unknown error initiating TCP/IP socket to huai:54699 (http://huai:46651/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:17:18,659: topic[/cam0/image_raw] removing connection to http://huai:46651/
+[rospy.core][INFO] 2020-01-06 23:17:51,101: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:17:51,103: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:17:51,103: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:17:51,103: signal-2
+[rospy.core][INFO] 2020-01-06 23:17:51,268: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:17:54,755: init_node, name[/ros_test], pid[4496]
+[xmlrpc][INFO] 2020-01-06 23:17:54,756: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:17:54,756: Started XML-RPC server [http://huai:40521/]
+[rospy.init][INFO] 2020-01-06 23:17:54,756: ROS Slave URI: [http://huai:40521/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:17:54,756: _ready: http://huai:40521/
+[rospy.registration][INFO] 2020-01-06 23:17:54,757: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:17:54,757: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:17:54,857: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:17:54,857: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:17:54,859: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:17:54,860: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:17:55,127: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:17:57,531: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:18:01,288: topic[/cam0/image_raw] adding connection to [http://huai:40005/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:19:35,768: Unknown error initiating TCP/IP socket to huai:51847 (http://huai:40005/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:19:35,768: topic[/cam0/image_raw] removing connection to http://huai:40005/
+[rospy.core][INFO] 2020-01-06 23:19:58,738: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:19:58,739: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:19:58,740: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:19:58,740: signal-2
+[rospy.core][INFO] 2020-01-06 23:19:58,848: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:20:06,202: init_node, name[/ros_test], pid[11005]
+[xmlrpc][INFO] 2020-01-06 23:20:06,207: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:20:06,209: Started XML-RPC server [http://huai:33613/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:20:06,209: _ready: http://huai:33613/
+[rospy.init][INFO] 2020-01-06 23:20:06,209: ROS Slave URI: [http://huai:33613/]
+[rospy.registration][INFO] 2020-01-06 23:20:06,220: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:20:06,220: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:20:06,310: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:20:06,310: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:20:06,312: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:20:06,313: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:20:06,433: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:20:08,838: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:20:11,854: topic[/cam0/image_raw] adding connection to [http://huai:46721/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:21:46,383: Unknown error initiating TCP/IP socket to huai:50763 (http://huai:46721/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:21:46,383: topic[/cam0/image_raw] removing connection to http://huai:46721/
+[rospy.core][INFO] 2020-01-06 23:22:33,473: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:22:33,474: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:22:33,475: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:22:33,475: signal-2
+[rospy.core][INFO] 2020-01-06 23:22:33,639: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:22:40,621: init_node, name[/ros_test], pid[17685]
+[xmlrpc][INFO] 2020-01-06 23:22:40,632: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:22:40,644: Started XML-RPC server [http://huai:37237/]
+[rospy.init][INFO] 2020-01-06 23:22:40,644: ROS Slave URI: [http://huai:37237/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:22:40,644: _ready: http://huai:37237/
+[rospy.registration][INFO] 2020-01-06 23:22:40,650: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:22:40,650: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:22:40,745: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:22:40,745: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:22:40,746: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:22:40,747: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:22:40,983: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:22:43,286: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:22:46,630: topic[/cam0/image_raw] adding connection to [http://huai:44219/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:24:21,116: Unknown error initiating TCP/IP socket to huai:42701 (http://huai:44219/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:24:21,116: topic[/cam0/image_raw] removing connection to http://huai:44219/
+[rospy.core][INFO] 2020-01-06 23:24:58,096: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:24:58,099: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:24:58,099: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:24:58,099: signal-2
+[rospy.core][INFO] 2020-01-06 23:24:58,232: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:25:05,754: init_node, name[/ros_test], pid[24148]
+[xmlrpc][INFO] 2020-01-06 23:25:05,760: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:25:05,761: Started XML-RPC server [http://huai:34935/]
+[rospy.init][INFO] 2020-01-06 23:25:05,761: ROS Slave URI: [http://huai:34935/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:25:05,761: _ready: http://huai:34935/
+[rospy.registration][INFO] 2020-01-06 23:25:05,767: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:25:05,767: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:25:05,862: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:25:05,862: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:25:05,863: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:25:05,864: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:25:06,104: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:25:08,509: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:25:11,749: topic[/cam0/image_raw] adding connection to [http://huai:46545/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:26:46,238: Unknown error initiating TCP/IP socket to huai:40111 (http://huai:46545/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:26:46,238: topic[/cam0/image_raw] removing connection to http://huai:46545/
+[rospy.core][INFO] 2020-01-06 23:27:46,147: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:27:46,149: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:27:46,149: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:27:46,149: signal-2
+[rospy.core][INFO] 2020-01-06 23:27:46,283: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:27:55,063: init_node, name[/ros_test], pid[31201]
+[xmlrpc][INFO] 2020-01-06 23:27:55,064: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-01-06 23:27:55,064: ROS Slave URI: [http://huai:32903/]
+[xmlrpc][INFO] 2020-01-06 23:27:55,064: Started XML-RPC server [http://huai:32903/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:27:55,065: _ready: http://huai:32903/
+[xmlrpc][INFO] 2020-01-06 23:27:55,068: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-06 23:27:55,068: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-01-06 23:27:55,165: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:27:55,165: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:27:55,167: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:27:55,167: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:27:55,376: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:27:57,780: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:28:02,699: topic[/cam0/image_raw] adding connection to [http://huai:44279/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:29:37,217: Unknown error initiating TCP/IP socket to huai:51953 (http://huai:44279/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:29:37,217: topic[/cam0/image_raw] removing connection to http://huai:44279/
+[rospy.core][INFO] 2020-01-06 23:29:47,896: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:29:47,898: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:29:47,899: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:29:47,899: signal-2
+[rospy.core][INFO] 2020-01-06 23:29:48,032: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:30:29,013: init_node, name[/ros_test], pid[6305]
+[xmlrpc][INFO] 2020-01-06 23:30:29,019: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:30:29,019: Started XML-RPC server [http://huai:38941/]
+[rospy.init][INFO] 2020-01-06 23:30:29,019: ROS Slave URI: [http://huai:38941/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:30:29,020: _ready: http://huai:38941/
+[rospy.registration][INFO] 2020-01-06 23:30:29,025: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:30:29,025: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:30:29,120: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:30:29,120: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:30:29,122: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:30:29,123: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:30:29,230: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:30:31,734: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:30:34,955: topic[/cam0/image_raw] adding connection to [http://huai:34539/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:32:09,468: Unknown error initiating TCP/IP socket to huai:52883 (http://huai:34539/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:32:09,468: topic[/cam0/image_raw] removing connection to http://huai:34539/
+[rospy.core][INFO] 2020-01-06 23:32:50,057: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:32:50,058: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:32:50,059: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:32:50,059: signal-2
+[rospy.core][INFO] 2020-01-06 23:32:50,163: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-06 23:32:52,485: init_node, name[/ros_test], pid[13126]
+[xmlrpc][INFO] 2020-01-06 23:32:52,486: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-06 23:32:52,486: Started XML-RPC server [http://huai:37271/]
+[rospy.init][INFO] 2020-01-06 23:32:52,486: ROS Slave URI: [http://huai:37271/]
+[rospy.impl.masterslave][INFO] 2020-01-06 23:32:52,486: _ready: http://huai:37271/
+[rospy.registration][INFO] 2020-01-06 23:32:52,487: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-06 23:32:52,488: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-06 23:32:52,587: registered with master
+[rospy.rosout][INFO] 2020-01-06 23:32:52,587: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-06 23:32:52,588: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-06 23:32:52,589: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-06 23:32:52,739: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-06 23:32:55,145: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-06 23:32:59,767: topic[/cam0/image_raw] adding connection to [http://huai:33261/], count 0
+[rospy.internal][WARNING] 2020-01-06 23:34:34,280: Unknown error initiating TCP/IP socket to huai:36233 (http://huai:33261/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-06 23:34:34,280: topic[/cam0/image_raw] removing connection to http://huai:33261/
+[rospy.core][INFO] 2020-01-06 23:36:07,284: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-06 23:36:07,285: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-06 23:36:07,286: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-06 23:36:07,286: signal-2
+[rospy.core][INFO] 2020-01-06 23:36:07,402: signal_shutdown [atexit]

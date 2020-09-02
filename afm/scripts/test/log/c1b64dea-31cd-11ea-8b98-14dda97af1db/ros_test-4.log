@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2020-01-07 23:17:18,845: init_node, name[/ros_test], pid[32081]
+[xmlrpc][INFO] 2020-01-07 23:17:18,853: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-07 23:17:18,854: Started XML-RPC server [http://huai:46791/]
+[rospy.init][INFO] 2020-01-07 23:17:18,854: ROS Slave URI: [http://huai:46791/]
+[rospy.impl.masterslave][INFO] 2020-01-07 23:17:18,855: _ready: http://huai:46791/
+[rospy.registration][INFO] 2020-01-07 23:17:18,859: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-07 23:17:18,859: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-07 23:17:18,955: registered with master
+[rospy.rosout][INFO] 2020-01-07 23:17:18,955: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-07 23:17:18,957: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-07 23:17:18,957: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-07 23:17:19,225: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-07 23:17:21,328: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-07 23:17:29,158: topic[/camera/infra1/image_rect_raw] adding connection to [http://huai:42467/], count 0
+[rospy.internal][INFO] 2020-01-07 23:18:35,539: topic[/Lines2d] adding connection to [/rostopic_2304_1578457115395], count 1
+[rospy.internal][INFO] 2020-01-07 23:18:39,708: topic[/Lines2d] removing connection to /rostopic_2304_1578457115395
+[rosout][WARNING] 2020-01-07 23:18:39,806: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-01-07 23:18:39,808: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 322, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][WARNING] 2020-01-07 23:20:03,140: Unknown error initiating TCP/IP socket to huai:34601 (http://huai:42467/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-01-07 23:20:03,140: topic[/camera/infra1/image_rect_raw] removing connection to http://huai:42467/
+[rospy.core][INFO] 2020-01-07 23:21:37,062: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-07 23:21:37,064: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-07 23:21:37,064: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-07 23:21:37,065: signal-2
+[rospy.core][INFO] 2020-01-07 23:21:37,197: signal_shutdown [atexit]

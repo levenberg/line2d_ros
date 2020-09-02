@@ -1,0 +1,7 @@
+afm/scripts/data/stanford_test
+afm/scripts/experiments/atrous
+afm/scripts/experiments/unet
+hawp/src/outputs/*
+hawp/src/parsing/data/wireframe/images/*
+.vscode/*
+hawp/src/data/*

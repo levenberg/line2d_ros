@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2020-01-30 22:20:14,156: init_node, name[/ros_test], pid[24965]
+[xmlrpc][INFO] 2020-01-30 22:20:14,167: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-30 22:20:14,167: Started XML-RPC server [http://huai:40221/]
+[rospy.init][INFO] 2020-01-30 22:20:14,167: ROS Slave URI: [http://huai:40221/]
+[rospy.impl.masterslave][INFO] 2020-01-30 22:20:14,175: _ready: http://huai:40221/
+[rospy.registration][INFO] 2020-01-30 22:20:14,176: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-30 22:20:14,176: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-30 22:20:14,275: registered with master
+[rospy.rosout][INFO] 2020-01-30 22:20:14,275: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-30 22:20:14,277: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-30 22:20:14,277: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-30 22:20:14,508: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-01-30 22:20:16,612: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-01-30 22:21:25,222: topic[/cam0/image_raw] adding connection to [http://huai:35581/], count 0
+[rospy.internal][WARNING] 2020-01-30 22:23:22,863: Unknown error initiating TCP/IP socket to huai:37915 (http://huai:35581/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 653, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-30 22:23:22,864: topic[/cam0/image_raw] removing connection to http://huai:35581/
+[rospy.core][INFO] 2020-01-30 22:24:51,430: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-30 22:24:51,432: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-30 22:24:51,433: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-01-30 22:24:51,433: signal-2
+[rospy.core][INFO] 2020-01-30 22:24:51,598: signal_shutdown [atexit]

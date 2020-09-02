@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2020-02-08 18:10:16,111: init_node, name[/ros_test], pid[7054]
+[xmlrpc][INFO] 2020-02-08 18:10:16,123: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-08 18:10:16,123: Started XML-RPC server [http://huai:43391/]
+[rospy.impl.masterslave][INFO] 2020-02-08 18:10:16,123: _ready: http://huai:43391/
+[rospy.init][INFO] 2020-02-08 18:10:16,124: ROS Slave URI: [http://huai:43391/]
+[rospy.registration][INFO] 2020-02-08 18:10:16,135: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-08 18:10:16,135: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-08 18:10:16,231: registered with master
+[rospy.rosout][INFO] 2020-02-08 18:10:16,231: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-08 18:10:16,233: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-08 18:10:16,233: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-08 18:10:16,487: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-08 18:10:18,691: topic[/Lines2d] adding connection to [/tracking_node], count 0
+[rospy.internal][INFO] 2020-02-08 18:10:45,471: topic[/camera/infra1/image_rect_raw] adding connection to [http://huai:42661/], count 0
+[rospy.internal][WARNING] 2020-02-08 18:16:54,777: Unknown error initiating TCP/IP socket to huai:58143 (http://huai:42661/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-08 18:16:54,778: topic[/camera/infra1/image_rect_raw] removing connection to http://huai:42661/
+[rospy.internal][INFO] 2020-02-08 18:17:33,177: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2020-02-08 18:17:33,535: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-02-08 18:17:33,536: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2020-02-08 18:17:33,536: topic[/Lines2d] removing connection to /tracking_node
+[rospy.impl.masterslave][INFO] 2020-02-08 18:17:33,536: signal-2
+[rospy.core][INFO] 2020-02-08 18:17:33,645: signal_shutdown [atexit]
