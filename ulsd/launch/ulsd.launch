@@ -1,0 +1,42 @@
+<launch>
+
+    <arg name="sequence_name" default = "corridors" />
+    <arg name="image_topic" default="/camera/infra1/image_rect_raw" />
+    <!-- <arg name="sequence_name" default = "V1_02_medium" />
+    <arg name="image_topic" default="/cam0/image_raw" /> -->
+
+    ################ start rogbag play node ################
+    <node pkg="rosbag" type="play" name="play" output="screen" args="$(find ulsd)/../../data/$(arg sequence_name).bag"/>
+
+    <!-- ################ start video_capture node ################
+    <node pkg="usb_camera" type="video_capture.py" name="video_capture" output="screen">
+        <remap from="image" to="/image_raw"/>
+        <param name="save_folder" value=""/>
+        <param name="show_flag" value="false"/>
+        <param name="save_flag" value="false"/>
+        <param name="serial_port" value="/dev/video2"/>
+        <param name="publish_camera_info" value="false"/>
+        <rosparam file="$(find usb_camera)/params/mono.yaml" command="load" />
+    </node> -->
+
+    ################ start video_view node ################
+    <node pkg="usb_camera" type="video_view.py" name="ulsd_view" output="screen">
+        <remap from="image" to="/ulsd/image_lines"/>
+        <param name="save_folder" value=""/>
+        <param name="show_flag" value="true"/>
+        <param name="save_flag" value="false"/>
+        <param name="encoding" value="bgr8"/>
+    </node>
+
+    ################ start ulsd node ################
+    <node pkg="ulsd" type="ulsd_node.py"  name="ulsd" output="screen">
+        <remap from="/image" to="$(arg image_topic)" /> 
+        <param name="config_file" type="string" value="$(find ulsd)/src/config/pinhole.yaml" />
+        <param name="sensor_file" type="string" value="$(find map_fusion)/config/$(arg sequence_name)/sensor.yaml" />
+        <param name="root_path" type="string" value="$(find ulsd)/src/" />
+        <param name="publish_image" type="bool" value="false" />
+    </node>
+
+</launch>
+
+
